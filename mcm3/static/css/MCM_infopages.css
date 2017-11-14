@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei UI";
+    font-size: 16px;
+}
+input{
+    height: 20px;
+    padding: 5px;
+    font-size: 13px;
+}
+.bg_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/static/img/bg.jpg') no-repeat;
+    background-size: cover;
+    opacity: 0.12;
+    z-index: -1;
+}
+.wrapper{
+    width: 1000px;
+    margin: 30px auto;
+    box-shadow: 1px 1px 10px #666666;
+}
+.head{
+    height: 60px;
+    line-height: 60px;
+    background: #55abed;
+    color: white;
+    padding-left: 10px;
+    position: relative;
+}
+.head img{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.register{
+    min-height: 400px;
+    background: white;
+}
+.main{
+    width: 900px;
+    min-height: 400px;
+    margin: 0px auto;
+}
+.reg_group{
+    float: left;
+    padding: 50px 40px 0 25px;
+}
+.info{
+    margin-bottom: 7px;
+}
+.member{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.tips{
+    margin-right: 7px;
+}
+.txt{
+    list-style: none;
+    width: 170px;
+    outline: none;
+    border: 1px solid darkgrey;
+    border-radius: 3px;
+}
+.check{
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+.foot{
+    padding-bottom: 30px;
+}
+.btn{
+    margin: 10px auto;
+    width: 170px;
+    height: 45px;
+}
+.confirm{
+    background: #55abed;
+    border: 1px solid #55abed;
+    border-radius: 3px;
+    color: white;
+    font-size: 17px;
+    padding: 3px;
+}
