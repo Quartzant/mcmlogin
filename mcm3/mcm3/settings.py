@@ -86,9 +86,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mcm3',
-        'USER': 'gdut144',
-        'PASSWORD': '3115007144a',
-        'HOST': 'gdut144.mysql.pythonanywhere-services.com'
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': 'localhost'
     }
 }
 
