@@ -26,7 +26,7 @@ SECRET_KEY = 'ps+-mpqq2aw*g%l06z&(#76oc4+riz7r8u6%=y*@*(vjxyf$p3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["120.79.26.148", "localhost", "gdutesports.cn"]
 
 
 # Application definition
